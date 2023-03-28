@@ -8,3 +8,122 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+* {
+  margin: 0;
+}
+
+.purple-background {
+  background-color: #540b51;
+}
+
+.ivory-background {
+  background-color: #f3eae2;
+}
+
+.buttons-size {
+  border-radius: 3px;
+  border: none;
+  width: 150%;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  font-size: 0.8em;
+}
+
+.bring-choose-move h2 {
+  font-size: 1.8em;
+  padding: 15px 10px;
+}
+
+.bring-choose-move p {
+  padding: 0px 0px 15px 10px;
+}
+
+.bring-choose-move a {
+  text-decoration: none;
+}
+
+.bring-choose-move span {
+  color: #2e71a6;
+  padding: 10px;
+}
+
+.companies-icons {
+  width: 100px;
+}
+
+.bring-choose-move--img {
+  width: 500px;
+  margin-top: 50px;
+}
+
+.nav-logo {
+  width: 100px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: white;
+}
+
+nav button {
+  background-color: #540b51;
+  border: none;
+}
+
+header,
+.header-top,
+.signup-btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  color: white;
+}
+
+header p {
+  font-size: 1em;
+  color: white;
+}
+
+#google-btn {
+  background-color: #4285f4;
+  color: white;
+}
+
+#google-btn img {
+  background-color: white;
+  width: 30px;
+  padding: 5px;
+}
+
+.header-img {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-logo {
+    width: 80px;
+  }
+
+  .nav-list {
+    display: none;
+  }
+}
